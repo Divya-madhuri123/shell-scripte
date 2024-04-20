@@ -13,6 +13,7 @@ VALIDATE(){
     else
         echo "$2...SUCCESS"
    fi
+}
 
 if [ $USERID -ne 0 ]
 then
